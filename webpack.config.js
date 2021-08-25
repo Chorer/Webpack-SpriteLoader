@@ -13,7 +13,8 @@ module.exports = {
     filename: '[name].js',
     library: 'webpack-sprite-loader',
     libraryExport: 'default',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    globalObject: 'this'
   }, 
   optimization: {
     minimize: true,

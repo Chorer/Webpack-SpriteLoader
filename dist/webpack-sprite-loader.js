@@ -7,7 +7,7 @@
 		exports["webpack-sprite-loader"] = factory();
 	else
 		root["webpack-sprite-loader"] = factory();
-})(global, function() {
+})(this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
